@@ -4,5 +4,5 @@ Single-line command to update Ubuntu's Node.JS libraries to gain access to Node.
 
 
 ```shell
-cd ~; curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh; sudo bash nodesource_setup.sh; sudo apt install nodejs
+cd ~; curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh; sudo bash nodesource_setup.sh; sudo apt install nodejs -y; sudo apt install git;
 ```
